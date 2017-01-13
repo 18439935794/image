@@ -1,0 +1,153 @@
+{
+  "AssesSuccessVC：" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "估价成功-历史成交-更多",
+        "GLLoggingFuncName" : "umeng_evaluaSuccess_deal_more",
+        "GLLoggingSelectorName" : "moreCarHisClick:"
+      }
+    ]
+  },
+  "AssessVC" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "估价-品牌",
+        "GLLoggingFuncName" : "evalua_brand",
+        "GLLoggingSelectorName" : "ChooseBranchClick::"
+      },
+      {
+        "GLLoggingEventName" : "估价-估价按钮",
+        "GLLoggingFuncName" : "evalua_button",
+        "GLLoggingSelectorName" : "AssessClick:"
+      },
+      {
+        "GLLoggingEventName" : "估价-估价文章",
+        "GLLoggingFuncName" : "evalua_article",
+        "GLLoggingSelectorName" : "HowAssessClick:"
+      }
+    ]
+  },
+  "TTLoginViewController" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "登录-登录按钮",
+        "GLLoggingFuncName" : "myLogin_button",
+        "GLLoggingSelectorName" : "seachClick:"
+      }
+    ]
+  },
+  "TTPEnrollSuccessViewController" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "预约成功-卖车进度",
+        "GLLoggingFuncName" : "indexSuccess_progress",
+        "GLLoggingSelectorName" : "sellCarClick:"
+      },
+      {
+        "GLLoggingEventName" : "预约成功-邀请好友",
+        "GLLoggingFuncName" : "indexSuccess_invite",
+        "GLLoggingSelectorName" : "recommendClick:"
+      }
+    ]
+  },
+  "TTPMineMainViewController" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "我的-卖车进度",
+        "GLLoggingFuncName" : "my_progress",
+        "GLLoggingSelectorName" : "topBtnClick:"
+      },
+      {
+        "GLLoggingEventName" : "预约成功-邀请好友",
+        "GLLoggingFuncName" : "indexSuccess_invite",
+        "GLLoggingSelectorName" : "recommendClick:"
+      }
+    ]
+  },
+  "TTPRatioViewController" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "品牌残值-品牌",
+        "GLLoggingFuncName" : "indexChart_brand",
+        "GLLoggingSelectorName" : "brandButtonDidClick:"
+      },
+      {
+        "GLLoggingEventName" : "品牌残值-卖车按钮",
+        "GLLoggingFuncName" : "indexChart_sellButton",
+        "GLLoggingSelectorName" : "sellCarClick:"
+      }
+    ]
+  },
+  "TTPSellCarViewController" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "卖车-卖车按钮1",
+        "GLLoggingFuncName" : "index_sellButton1",
+        "GLLoggingSelectorName" : "sellCarClick:"
+      },
+      {
+        "GLLoggingEventName" : "卖车-最新成交-更多",
+        "GLLoggingFuncName" : "index_deal_more",
+        "GLLoggingSelectorName" : "moreNewDeal:"
+      },
+      {
+        "GLLoggingEventName" : "卖车-品牌残值-更多",
+        "GLLoggingFuncName" : "index_chart_more",
+        "GLLoggingSelectorName" : "moreRatio:"
+      },
+      {
+        "GLLoggingEventName" : "卖车-门店",
+        "GLLoggingFuncName" : "index_store",
+        "GLLoggingSelectorName" : "storeImageClick:"
+      },
+      {
+        "GLLoggingEventName" : "卖车-邀请好友",
+        "GLLoggingFuncName" : "index_invite",
+        "GLLoggingSelectorName" : "inviteImageClick:"
+      },
+      {
+        "GLLoggingEventName" : "卖车-关于-更多",
+        "GLLoggingFuncName" : "index_about_more",
+        "GLLoggingSelectorName" : "moreAbout:"
+      },
+      {
+        "GLLoggingEventName" : "卖车-关于-新闻1",
+        "GLLoggingFuncName" : "index_about_new1",
+        "GLLoggingSelectorName" : "firstNewsClick:"
+      },
+      {
+        "GLLoggingEventName" : "卖车-关于-新闻2",
+        "GLLoggingFuncName" : "index_about_new2",
+        "GLLoggingSelectorName" : "secondNewsClick:"
+      },
+      {
+        "GLLoggingEventName" : "常见问题-问题4",
+        "GLLoggingFuncName" : "index_faq4",
+        "GLLoggingSelectorName" : "needInfoButtonClicke:"
+      },
+      {
+        "GLLoggingEventName" : "卖车-卖车按钮2",
+        "GLLoggingFuncName" : "index_sellButton2",
+        "GLLoggingSelectorName" : "bottomButtonClick:"
+      }
+    ]
+  },
+  "TTPSetingTableViewController" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "设置-退出登录",
+        "GLLoggingFuncName" : "mySetting_logout",
+        "GLLoggingSelectorName" : "loginOutRequest"
+      }
+    ]
+  },
+  "WechatLoginViewController" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "微信登录",
+        "GLLoggingFuncName" : "myLogin_wechat",
+        "GLLoggingSelectorName" : "wechatLoginClick:"
+      }
+    ]
+  }
+}

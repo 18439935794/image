@@ -1,0 +1,171 @@
+//  1.	统一监控点击事件
+{
+  "BHLoginViewController" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "忘记密码",
+        "GLLoggingFuncName" : "forget_pwd",
+        "GLLoggingSelectorName" : "forgetPSW"
+      },
+      {
+        "GLLoggingEventName" : "登录",
+        "GLLoggingFuncName" : "login",
+        "GLLoggingSelectorName" : "login"
+      }
+    ]
+  },
+  "BidPriceVC" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "我要出价",
+        "GLLoggingFuncName" : "bid",
+        "GLLoggingSelectorName" : "doneBtnClick:"
+      }
+    ]
+  },
+  "BidTVC" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "筛选",
+        "GLLoggingFuncName" : "filters",
+        "GLLoggingSelectorName" : "pushToFiltrate:"
+      }
+    ]
+  },
+  "CollectTVC" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "删除收藏",
+        "GLLoggingFuncName" : "delete",
+        "GLLoggingSelectorName" : "deleteCollect:"
+      }
+    ]
+  },
+  "PersonTVC" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "个人中心资金明细",
+        "GLLoggingFuncName" : "wallet",
+        "GLLoggingSelectorName" : "moneydetailClick:"
+      },
+      {
+        "GLLoggingEventName" : "个人中心退出登录",
+        "GLLoggingFuncName" : "exit",
+        "GLLoggingSelectorName" : "createoutAlert"
+      }
+    ]
+  },
+  "SituationTVC" : {
+    "GLLoggingTrackedEvents" : [
+      {
+        "GLLoggingEventName" : "收藏",
+        "GLLoggingFuncName" : "Favorites",
+        "GLLoggingSelectorName" : "collectBtnClick:"
+      }
+    ]
+  }
+}
+
+// 2.监控统计用户进入此界面的时长，频率等信息
+{"SituationTVC" : {
+    "GLLoggingTrackedEvents" : [
+                                {
+                                "GLLoggingEventName" : "检测单",
+                                "GLLoggingFuncName" : "",
+                                "GLLoggingSelectorName" : "viewWillAppear:"
+                                },
+                                {
+                                "GLLoggingEventName" : "检测单",
+                                "GLLoggingFuncName" : "",
+                                "GLLoggingSelectorName" : "viewWillDisAppear:"
+                                }
+                                ]
+},
+    "BHLoginViewController" : {
+        "GLLoggingTrackedEvents" : [
+                                    {
+                                    "GLLoggingEventName" : "登陆",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillAppear:"
+                                    },
+                                    {
+                                    "GLLoggingEventName" : "登陆",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillDisAppear:"
+                                    }
+                                    ]
+    },
+    "BidPriceVC" : {
+        "GLLoggingTrackedEvents" : [
+                                    {
+                                    "GLLoggingEventName" : "我的出价",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillAppear:"
+                                    },
+                                    {
+                                    "GLLoggingEventName" : "我的出价",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillDisAppear:"
+                                    }
+                                    ]
+    },
+    "BidTVC" : {
+        "GLLoggingTrackedEvents" : [
+                                    {
+                                    "GLLoggingEventName" : "竞价大厅",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillAppear:"
+                                    },
+                                    {
+                                    "GLLoggingEventName" : "竞价大厅",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillDisAppear:"
+                                    }
+                                    ]
+    },
+    "CollectTVC" : {
+        "GLLoggingTrackedEvents" : [
+                                    {
+                                    "GLLoggingEventName" : "收藏",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillAppear:"
+                                    },
+                                    {
+                                    "GLLoggingEventName" : "收藏",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillDisAppear:"
+                                    }
+                                    ]
+    },
+    "PersonTVC" : {
+        "GLLoggingTrackedEvents" : [
+                                    {
+                                    "GLLoggingEventName" : "个人中心",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillAppear:"
+                                    },
+                                    {
+                                    "GLLoggingEventName" : "个人中心",
+                                    "GLLoggingFuncName" : "",
+                                    "GLLoggingSelectorName" : "viewWillDisAppear:"
+                                    }
+                                    ]
+    }
+}
+
+// 3.特殊单元格打点
+{"DetailRootVC" : {
+    "GLLoggingTrackedEvents" : [
+                                {
+                                "GLLoggingEventName" : "检测单详情",
+                                "GLLoggingFuncName" : "",
+                                "GLLoggingSelectorName" : "viewDidLoad"
+                                }
+                                ]
+}
+}
+//4.特殊情况（需要满足某种条件才打点）,这些打点均写在各自类里
+//CollectTVC:清空收藏数据
+
+
+
